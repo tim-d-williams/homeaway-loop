@@ -1,14 +1,14 @@
-homeawayLoop = function() {
-  let i = 100
+function homeawayLoop() {
+  let i = 100;
   while (i <= 200) {
-    if ((i%3 === 0) && (i%4 === 0)) {
-      console.log("HomeAway");
-    } else if (i%3 === 0) {
+    if ((i%3 === 0) && (i%4 === 0)) 
+    console.log("HomeAway");
+     else if (i%3 === 0) 
       console.log("Home");
-    } else if (i%4 === 0) {
+     else if (i%4 === 0) 
       console.log("Away");
-    } else {
+     else 
       console.log(i);
-  } i++;
-}
+    i++;
+  }
 }
